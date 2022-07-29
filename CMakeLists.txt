@@ -1,9 +1,9 @@
 
 
 add_library(glfwpp
-  STATIC
+    STATIC
     Source/glfw.cpp
-)
+    ../NetUtils/Source/NetUtils.cpp ../NetUtils/Include/NetUtils.hpp)
 
 target_compile_definitions(glfwpp
   PRIVATE
